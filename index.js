@@ -41,25 +41,25 @@ z = x - y; // x = 5, y = 10...  z = 5 - 10
 
 // TIPE DATA
 // 1. String
-const contohString = "Ini adalah contoh string";
+// const contohString = "Ini adalah contoh string";
 
-// 2. Number
-const contohNumber = 5;
+// // 2. Number
+// const contohNumber = 5;
 
-// 3. Boolean, nilainya cuma ada dua : `true` atau hanya `false`
-const isMarried = true;
+// // 3. Boolean, nilainya cuma ada dua : `true` atau hanya `false`
+// const isMarried = true;
 
-// 4. Array, di dalamnya kita bisa menyimpan banyak nilai
-const contohArray = [ "ini contoh string", 12, true, [ "contoh string di dalam array" ] ];
+// // 4. Array, di dalamnya kita bisa menyimpan banyak nilai
+// const contohArray = [ "ini contoh string", 12, true, [ "contoh string di dalam array" ] ];
 
-// 5. Object, terdapat yang namanya properti dan value
-const objectOrang = {
-    nama: 'Uki', // nama => properti, 'Uki' => nilai
-    hobi: [ 'belajar', 'menggambar' ],
-}
+// // 5. Object, terdapat yang namanya properti dan value
+// const objectOrang = {
+//     nama: 'Uki', // nama => properti, 'Uki' => nilai
+//     hobi: [ 'belajar', 'menggambar' ],
+// }
 
-// 6. Undefined, kita tidak mengisi apa-apa pada variabel
-let contohUndefined; // undefined
+// // 6. Undefined, kita tidak mengisi apa-apa pada variabel
+// let contohUndefined; // undefined
 
-// typeof 
-console.log( typeof contohString ); // mengetahui tipe data dari sebuah variabel
+// // typeof 
+// console.log( typeof contohString ); // mengetahui tipe data dari sebuah variabel
