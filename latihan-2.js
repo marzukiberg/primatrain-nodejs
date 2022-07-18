@@ -8,7 +8,7 @@ const getUserAsync = async () => {
   const response = await fetch(apiURL); 
   // ... lanjutkan
 
-  // tampilkan data yang di dapat di => console console.log(data);
+  // tampilkan data yang di dapat di console => console.log(data);
 };
 
 // 2. lengkapi fungsi ini untuk mendapatkan
@@ -17,7 +17,7 @@ const getUserPromised = () => {
   fetch(apiURL)
     .then((response) => response.json())
     // ... lanjutkan
-    // tampilkan data yang di dapat di => console console.log(data);
+    // tampilkan data yang di dapat di console => console.log(data);
 };
 
 getUserAsync();
