@@ -11,7 +11,7 @@ const getUserAsync = async () => {
   // tampilkan data yang di dapat di console => console.log(data);
 };
 
-// 2. lengkapi fungsi ini untuk mendapatkan
+// 2. lengkapi fungsi ini untuk mendapatkan data user dari `apiURL`
 // gunakan fungsi `fetch` bawaan dari javascript
 const getUserPromised = () => {
   fetch(apiURL)
