@@ -1,9 +1,14 @@
+require('dotenv').config();
 const express = require('express');
+const authRouter = require('./routes/auth');
+const mahasiswaRouter = require('./routes/mahasiswa');
 const app = express();
 require('./db/connection');
-const homeRouter = require('./routes/mahasiswa');
 
 app.use(express.json());
-app.use('/api', homeRouter);
+
+// atur routing di sini
+app.use('/api/auth', authRouter);
+app.use('/api/mahasiswa', mahasiswaRouter);
 
 app.listen(3000);

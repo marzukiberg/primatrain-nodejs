@@ -3,8 +3,10 @@ const { default: mongoose } = require('mongoose');
 // kredensial untuk dapat terhubung ke mongodb
 // silahkan pelajari cara membuat database di MongoDB local atau MongoDB Atlas
 // contoh di sini menggunakan URL database yang sudah saya buat di MongoDB Atlas
-// const mongoURI =
-//   'mongodb+srv://bitslab-training:bitslab-training@cluster0.as2nxer.mongodb.net/?retryWrites=true&w=majority';
+// SILAKAN GANTI DENGAN KONFIGURASI MONGODB KALIAN (AGAR DAPAT MEMAHAMI ALUR PROSES PEMBUATAN DATABASE MONGODB)
+// atau GUNAKAN SAJA YANG SUDAH ADA (JIKA SUDAH MENGERTI)
+const mongoURI =
+  'mongodb+srv://bitslab-training:bitslab-training@cluster0.as2nxer.mongodb.net/?retryWrites=true&w=majority';
 
 // hubungkan database menggunakan mongoose
 mongoose.connect(mongoURI, (err) => {
